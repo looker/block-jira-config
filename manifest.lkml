@@ -3,11 +3,11 @@ project_name: "block-jira-config"
 ################ Constants ################
 
 constant: SCHEMA_NAME {
-  value: "default value"
+  value: "brick-layer"
   export: override_required
 }
 
 constant: COMPANY_DOMAIN {
-  value: "default value"
+  value: "jira"
   export: override_required
 }

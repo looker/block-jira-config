@@ -10,11 +10,6 @@ explore: sprint_config {
   extension: required
 }
 
-explore: version_config {
-  extends: [version_core]
-  extension: required
-}
-
 explore: issue_config {
   extends: [issue_core]
   extension: required
