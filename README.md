@@ -35,8 +35,6 @@ Understanding the Fivetran implementation of the Jira data model is important fo
 
 The `issue` table is highly customizable.  Administrators can add any additional fields necessary for capturing the data that makes tracking and reporting more effective.  These additional fields can be either Single Select Fields or Multi-Select Fields.  As the names imply, a Single Select Field can only contain one value, and a Multi-Select field can contain several values.  Single Select issue fields are stored in the `issue` table.  Multi-Select fields are stored in separate tables.  For example, an issue may affect several customers, so it is represented by a multi-select field in the Jira UI, and stored in a separate table in the Fivetran Jira schema named `issue_customer_impacted`.
 
-The `issue_extended` table is a denormalized Looker PDT that contains all of the information related to an issue.  The view file contains detailed information on how to update the PDT for your Jira environment.  Any changes made to the `issue` table will generally need to be reflected in the `issue_extended` PDT as well.
-
 
 ### What if I find an error? Suggestions for improvements?
 
