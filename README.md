@@ -1,6 +1,6 @@
-# Jira Block
+# Jira Agile Block
 
-### Why use the Looker Jira Block?
+### Why use the Looker Jira Agile Block?
 **(1) Rapid Time To Value** - gain insights from your Jira data in hours, not weeks. The Jira Block includes pre-built dashboards and content focusing on the Agile methodology, with analysis around Projects, Versions, Springs, and Issues. Additionally, this Data is organized to mask many of the complexities of Jira.
 
 **(2) Centralized Place for Analysis** -  No Jira access required to do self-service reporting. Plus, you can combine your Jira data with other data in your warehouse (e.g. Bitbucket or Github commits) for end-to-end analysis.
@@ -10,7 +10,7 @@
 
 ### Jira Data Structure and Schema
 
-Looker’s Jira Block is designed to work with the Fivetran Jira schema.  Fivetran has abstracted away many of the complexities of the Jira data model to make it easier for reporting purposes.  Because the Jira schema is very customizable and is different for every implementation, rather than attempting to replicate the exact structure of the Jira schema, Fivetran stores the data in more compact format, with Issues as the central focus.
+Looker’s Jira Agile Block is designed to work with the Fivetran Jira schema.  Fivetran has abstracted away many of the complexities of the Jira data model to make it easier for reporting purposes.  Because the Jira schema is very customizable and is different for every implementation, rather than attempting to replicate the exact structure of the Jira schema, Fivetran stores the data in more compact format, with Issues as the central focus.
 
 The Fivetran schema for Jira data can be found [here](https://www.fivetran.com/docs/applications/jira).
 
