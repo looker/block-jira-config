@@ -14,8 +14,6 @@ Looker’s Jira Block is designed to work with the Fivetran Jira schema.  Fivetr
 
 The Fivetran schema for Jira data can be found [here](https://www.fivetran.com/docs/applications/jira).
 
-A more detailed description of how to deploy Looker Blocks in your environment can be found [here](https://discourse.looker.com/t/copying-a-lookml-project-into-looker-from-a-github-repo/1209).
-
 
 Understanding the Fivetran implementation of the Jira data model is important for understanding the LookML model and how you will enhance it based on your own customized version of Jira.  In a typical implementation, the majority of the customizations will be related to the `issue` table, so most of the following discussion will focus on the `issue` table.
 
